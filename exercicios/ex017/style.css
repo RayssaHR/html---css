@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    background-color: #ec9aec;
+    background-image: linear-gradient(to top, #f087f0, #ec9aec 70%);
+    background-attachment: fixed;
+    text-indent: 2em;
+     
+}
+
+.class-test{
+    font-style: normal;
+    color: #702370;
+    
+}

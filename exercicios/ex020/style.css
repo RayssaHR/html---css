@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    color: rgb(0, 0, 0);
+    background-color: #ff009d71;
+    width: 10em;
+}
+div:hover{
+    color: #ff009d71;
+}

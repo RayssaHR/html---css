@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Document</title>
+    <style>
+        body{
+            color: rgb(255, 255, 255);
+            font-family: 'Courier New', Courier, monospace;
+            background-image: linear-gradient(to bottom, rgb(182, 126, 255), #ffffff);
+            background-attachment: fixed;
+        }
+        a{
+            color: #8400ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: #340064;
+        }
+        
+        a:hover{
+            color: #340064;
+        }
+        a:active{
+            color: #ffffff;
+        }
+        
+        /*
+        a::after{
+            content:'[link]' ;
+            font-weight: normal;
+            color: #8400ff5e;
+        }
+        */
+        .especial{
+            background-color: #8400ff27;
+        }
+        .especial::before{
+           content: '>';
+        }
+        
+        .especial::after{
+           content: '<';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Links personalizados</h1>
+    <ul>
+        <li><a class="especial" href="https://www.instagram.com/hellokittybrasil/" target="_blank">Instagram Hello Kitty</a></li>
+        <li><a href="https://www.instagram.com/hermione_203/" target="_blank">Instagram Hermione_203</a></li>
+        <li><a class="especial" href="https://br.pinterest.com/rayssahermione28/" target="_blank">Pinterest hermione</a></li>
+    </ul>
+    
+</body>
+</html>

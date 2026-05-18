@@ -1,0 +1,53 @@
+@charset "UTF_8";
+
+ @font-face {
+        font-family: 'gotica';
+        src: url(Le\ Labyrinthe\ des\ Chevaliers.ttf) format('truetype');
+    }
+
+     @font-face {
+        font-family: 'gotica2';
+        src: url(DeathMohawk_PERSONAL_USE_ONLY.otf) format('opentype');
+    }
+
+body{
+    text-align: center;
+    background-image: linear-gradient(to bottom, #d8bff0 80%, #c385fd);
+    background-attachment: fixed;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 17px;
+   
+}
+/*h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-style: italic;
+    background-color: #FF8BA0;
+    text-decoration: underline;
+}*/
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #c385fd;
+    font-style: italic;
+}
+
+
+#id-test{
+    text-align: center; 
+    font-family: 'gotica', sans-serif;
+    font-size: 4em;
+    font-style: oblique;
+    color: #c385fd;
+}
+
+.class-titulos{
+    text-align: center; 
+    font-family: 'gotica', sans-serif;
+    font-size: 2em;
+    font-style: italic;
+    color: #c385fd;
+}
+.class-test{
+    color: #442561;
+}

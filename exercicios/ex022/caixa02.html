@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Grouping tag</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-image:linear-gradient(to bottom, #dab5fd, #ffffff);
+            background-attachment: fixed;
+        }
+        header{
+            background-color: #ffffff96;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        nav{
+            background-color: #dab5fd;
+            padding: 5px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.219);
+            border-radius: 10px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: #774d9e;
+            padding: 3px;
+        }
+        nav > a:hover {
+            color: #ffffff;
+        }
+
+       main{
+        background-color: #ffffff;
+        padding: 10px;
+        margin: 10px;
+       }
+       
+       article{
+        background-color: #dab5fd;
+        border-radius: 10px;
+
+       }
+
+       article > aside{
+        background-color: #cf9cff;
+        
+       }
+
+       aside{
+        margin-top: 5px;
+        padding: 5px;
+        background-color: #774d9e;
+       }
+
+       footer{
+        text-align: center;
+        background-color: #774d9e;
+        padding: 1 px;
+        margin: 1px;
+       }
+
+       p{
+        padding: 5px;
+       }
+
+       div#bola {
+        height: 100px;
+        width: 100px;
+        background-color: #774d9e;
+        border-radius: 50%;
+        margin: auto;
+        margin-top: 40px;
+       }
+    </style>
+</head>
+<body>
+    <header>    
+        <h1>MEU SITE</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>   
+                <h2> Titulo </h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, vero et error autem nesciunt molestiae deserunt deleniti id odio recusandae vel maxime. Voluptatum delectus sequi vel sint odio! Quisquam, delectus.</p>
+                <aside>
+                    Escrito por x
+                </aside>
+            </article>
+            <article>
+                <h2> Titulo 2 </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt hic deserunt voluptatem dolorem eum sequi ad ipsa tempore unde ullam? Blanditiis voluptate at, dolores repellat porro quasi explicabo atque laudantium!</p>
+                 <aside>
+                    Escrito por x
+                </aside>
+            </article>
+        </section>
+        <aside>
+            conteudo periferico do site
+        </aside>
+    </main>
+    <footer>
+        Conteudo do rodapé
+    </footer>
+
+    <div id="bola"></div>
+    
+</body>
+</html>

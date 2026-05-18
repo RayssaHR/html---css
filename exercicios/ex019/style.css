@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to bottom,  #BFD989 80% , #B8D973);
+    color: #612a58;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+#id-titulo{
+    background-color: #f285e0b0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+.class-subtitulos{
+    background-color: #f285e049;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+
+}
