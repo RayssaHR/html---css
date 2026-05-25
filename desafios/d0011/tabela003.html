@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 03</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;  
+        }
+
+        table{
+            width: 700px;
+            text-align: center;
+        }
+
+        th, tr, td{
+            border: 1px solid #463c80;
+            border-radius: 10px;
+            padding: 16px;
+            background-color: #ede3ffa4;
+        }
+
+        th{
+            background-color: #c8c2e7;
+        }
+     </style>
+</head>
+<body>
+    <table>
+        <thead>
+             <tr>
+             <th scope="col">Grupos</th>
+             <th scope="col">Nomes</th>
+             <th scope="col" colspan="3">Filmes</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="4">Mulheres</th>
+            </tr>
+            <tr>
+                <td>Ana Carolina</td>
+                <td>Titanic</td>
+                <td>Frozen</td>
+                <td>Barbie</td>
+            </tr>
+            <tr>
+                <td>Julia</td>
+                <td>Harry Potter</td>
+                <td>Moana</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <td>Camila</td>
+                <td>Noiva Cadaver</td>
+                <td>Coraline</td>
+                <td>Kiki</td>
+            </tr>
+            
+            <tr>
+                <th scope="rowgroup" rowspan="4">Homens</th>
+            </tr>
+            <tr>
+                <td>Lucas</td>
+                <td>Batman</td>
+                <td>Matrix</td>
+                <td>Carros</td>
+            </tr>
+            <tr>
+                <td>Gabriel</td>
+                <td>Interstellar</td>
+                <td>O rei leão</td>
+                <td>Top Gun</td>
+            </tr>
+            <tr>
+                <td>Rafael</td>
+                <td>Toy Story</td>
+                <td>Lucca</td>
+                <td>Coco</td>
+            </tr>
+        </tbody>
+        
+    </table>
+</body>
+</html>
