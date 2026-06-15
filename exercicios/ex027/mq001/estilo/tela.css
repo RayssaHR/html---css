@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* Estilo para telas */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    background-color: palevioletred;
+}
+
+menu{
+    padding: 10px;
+    background-color: lightpink;
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+    background-color: palevioletred;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+article{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 600px;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 4px;
+}
+
+p{
+    padding-top: 10px;
+}
