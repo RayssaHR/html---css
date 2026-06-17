@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: black url(../imagens/back-celular.jpg) no-repeat;
+    background-size: cover;
+}
+
+main{
+    background-color: #f0f8ff70;
+    width: 70vw;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 2em;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 1px 1px 5px #00000067;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+#tablet{
+    display: none;
+}
+
+#impressao{ 
+    display: none;
+}
+
+#pc{
+    display: none;
+}
+
+#tv{
+    display: none;
+}
