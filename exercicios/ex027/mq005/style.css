@@ -20,7 +20,21 @@ header > h1{
 }
 
 menu{
+    display: none;
+}
+
+#burguer{
     display: block;
+    background-color: #534463;
+    color: #ffffffdc;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burguer:hover{
+    background-color: #2e2636;
+    transition-duration:1s;
 }
 
 menu > ul{
